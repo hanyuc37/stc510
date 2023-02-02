@@ -1,0 +1,24 @@
+Script started on 2023-02-01 18:25:29-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;hanyuc37@HANYU-AWESOMELAPTOP: ~[01;32mhanyuc37@HANYU-AWESOMELAPTOP[00m:[01;34m~[00m$ cd data/
+[?2004l[?2004h]0;hanyuc37@HANYU-AWESOMELAPTOP: ~/data[01;32mhanyuc37@HANYU-AWESOMELAPTOP[00m:[01;34m~/data[00m$ ls -l
+[?2004ltotal 3095800
+-rw-r--r-- 1 hanyuc37 hanyuc37 2785518314 Jan  9  2018  log.csv
+-rw-r--r-- 1 hanyuc37 hanyuc37  384564585 Feb  1 16:52 'log.tar.gz?dl=0'
+-rw-r--r-- 1 hanyuc37 hanyuc37        123 Feb  1 18:22  output.txt
+-rw-r--r-- 1 hanyuc37 hanyuc37         99 Feb  1 18:23  output_uniq.txt
+[?2004h]0;hanyuc37@HANYU-AWESOMELAPTOP: ~/data[01;32mhanyuc37@HANYU-AWESOMELAPTOP[00m:[01;34m~/data[00m$ grep -o "education[A-Za-z0-9]\+[A-Za-z0-9]\+.txt" log.csv
+[?2004l[01;31m[Keducation0gscototal.txt[m[K
+[01;31m[Keducation012910.txt[m[K
+[01;31m[Keducation0gscototal.txt[m[K
+[01;31m[Keducation0gscototal.txt[m[K
+[01;31m[Keducationrealty2008yebnymc.txt[m[K
+[?2004h]0;hanyuc37@HANYU-AWESOMELAPTOP: ~/data[01;32mhanyuc37@HANYU-AWESOMELAPTOP[00m:[01;34m~/data[00m$ grep -o "education[A-Za-z0-9]\+[A-Za-z0-9]\+.txt" log.csv > output.txt[K[K[K[K[Kt_hanyu.csv[K[K[Ktxt
+[?2004l[?2004h]0;hanyuc37@HANYU-AWESOMELAPTOP: ~/data[01;32mhanyuc37@HANYU-AWESOMELAPTOP[00m:[01;34m~/data[00m$ cat output.txt|uniq > output_uniq.txt[K[K[K[K[K[K[K[Khanyu_uniq.txt
+[?2004l[?2004h]0;hanyuc37@HANYU-AWESOMELAPTOP: ~/data[01;32mhanyuc37@HANYU-AWESOMELAPTOP[00m:[01;34m~/data[00m$ ex[K[Kcd home/hanyuc37
+[?2004lbash: cd: home/hanyuc37: No such file or directory
+[?2004h]0;hanyuc37@HANYU-AWESOMELAPTOP: ~/data[01;32mhanyuc37@HANYU-AWESOMELAPTOP[00m:[01;34m~/data[00m$ cd /
+[?2004l[?2004h]0;hanyuc37@HANYU-AWESOMELAPTOP: /[01;32mhanyuc37@HANYU-AWESOMELAPTOP[00m:[01;34m/[00m$ cd/home/hanyuc[K[K[K[K[K[K[K[K[K[K[K[K ha[Kome.[K/hanyuc37
+[?2004l[?2004h]0;hanyuc37@HANYU-AWESOMELAPTOP: ~[01;32mhanyuc37@HANYU-AWESOMELAPTOP[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2023-02-01 18:28:48-06:00 [COMMAND_EXIT_CODE="0"]
